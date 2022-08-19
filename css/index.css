@@ -1,0 +1,9 @@
+:root {
+    scroll-behavior: smooth;
+    --primary-theme-color: #020303;
+    --secondary-theme-color: #BE1818;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #020303;
+    --primary-shadow-color: #42464f80;
+    --primary-font-family: 'Roboto';
+} 

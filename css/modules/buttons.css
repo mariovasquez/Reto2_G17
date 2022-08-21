@@ -1,0 +1,28 @@
+.button{
+    display: inline-block;
+    font-family: var(--primary-font-family);
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+    padding: 0.25em 1em;
+}
+
+.button--primary {
+    background-color: var(--primary-button-color);
+    border: 0.0625rem solid var(--primary-button-color);
+    color: var(--reverse-primary-text-color);
+    transition: all 0.25s;
+}
+
+.button--primary:hover {
+    background-color: var(--secondary-button-color);
+    color: var(--tertiary-text-color);
+    box-shadow: 0 0 0.25rem 0.25rem var(--secondary-theme-color);
+    filter: brightness(150%);
+}
+
+@media(min-width: 768px){
+    .button{
+        font-size: 1.125rem;
+    }
+}

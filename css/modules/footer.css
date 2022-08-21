@@ -1,0 +1,121 @@
+.footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__row {
+    background-color: var(--primary-theme-color);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    float: left;
+    width: 100%;
+}
+
+.footer__column {
+    float: left;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__icon {
+    background-color: var(--secondary-theme-color);
+    border-radius: 0.5rem 1rem;
+    padding: 0.50rem;
+    margin: 0.5rem;
+}
+
+.footer__icon:hover {
+    background-color: var(--primary-text-color);
+}
+
+.footer__link-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--primary-font-family);
+    list-style: none;
+    gap: 2rem;
+}
+
+.footer__link-icon:hover {
+    cursor: pointer;
+    color: var(--secondary-theme-color);
+
+}
+
+.footer__link {
+    display: flex;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    transition: transform 0.25s;
+}
+  
+.footer__link:hover {
+    transform: scale(1.15);
+    color: var(--secondary-theme-color);
+}
+
+.sub__footer {
+    background-color: var(--secondary-theme-color);
+    padding: 0.250rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__subtitle {
+    text-align: center;
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    align-items: center;
+    font-size: 1rem;
+}
+
+.footer__subtitle-link {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+.footer__subtitle-link:hover {
+    color: var(--primary-font-color);
+}
+
+.button--primary {
+    font-family: var(--primary-font-family);
+    cursor: pointer;
+    background-color: var(--primary-button-color);
+    border: 0.0625rem solid var(--primary-button-color);
+    color: var(--reverse-primary-text-color);
+}
+
+.button--primary:hover {
+    background-color: var(--primary-text-color);
+    color: var(--primary-button-color);
+    box-shadow: 0 0 0.25rem 0.25rem var(--primary-theme-color);
+    filter: brightness(112.5%);
+}
+
+
+@media (min-width: 768px) {
+    .footer__column-left {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer__column-middle {
+        width: 35%;
+    }
+    
+    .footer__column-right {
+        width: 35%;
+    }
+}

@@ -6,4 +6,10 @@
     --secondary-text-color: #020303;
     --primary-shadow-color: #42464f80;
     --primary-font-family: 'Roboto';
+    --reverse-primary-shadow-color: #42464f80;
+    --primary-button-color: #BE1818;
+    --padding-section: 2rem;
+    --padding-container: 1rem;
+    --max-width-container: 640px;
+    --primary-border-radius: 0.5rem;
 } 

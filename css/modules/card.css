@@ -89,7 +89,9 @@
     .card--hero{
         height: 6rem;
     }
+}
 
+@media (min-width:1015px){
     .card--main{
         max-width: 200px;
         height: 360px;

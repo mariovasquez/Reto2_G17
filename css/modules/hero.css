@@ -3,6 +3,8 @@
     border-radius: var(--primary-border-radius);
     box-shadow: 0 0 0.25rem 0.125rem var(--primary-shadow-color);
     animation: translate 3s linear infinite;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .hero-img__img:hover{
     animation: rotate 0.25s;

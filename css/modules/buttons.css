@@ -21,10 +21,13 @@
     animation: scaleButton 3s infinite;
 }
 
+.button--hero:hover{
+    transform: scale(1.25);
+    animation: none;
+}
+
 .button--primary:hover {
     color: var(--secondary-text-color);
-    animation: none;
-    transform: scale(1.25);
     filter: brightness(125%);
 }
 

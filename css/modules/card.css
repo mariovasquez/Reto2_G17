@@ -28,6 +28,11 @@
     text-shadow: 0rem 0.25rem var(--primary-text-color);
 }
 
+.card--main{
+    max-width: 200px;
+    height: 360px;
+}
+
 @media (min-width:768px){
     .card--hero{
         height: 6rem;

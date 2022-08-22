@@ -1,0 +1,35 @@
+.card{
+    box-shadow: 0 0 0.125rem 0.125rem var(--reverse-primary-shadow-color) inset;
+    overflow: hidden;
+}
+
+.card--hero{
+    z-index: 5;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../img/background-submenu.webp');
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    font-size: 1.25rem;
+    transition: all 0.25s;
+}
+
+.card--hero:hover{
+    filter: brightness(75%);
+    font-size: 1.125rem;
+}
+
+.card__title{
+    padding: 0.125rem;
+    background-color: var(--tertiary-theme-color);
+    text-shadow: 0rem 0.25rem var(--primary-text-color);
+}
+
+@media (min-width:768px){
+    .card--hero{
+        height: 6rem;
+    }
+}

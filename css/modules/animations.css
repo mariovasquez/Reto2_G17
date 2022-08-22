@@ -1,0 +1,11 @@
+@keyframes scaleButton{
+    0% {scale: 1;}
+    50% {scale: 1.25;}
+    100% {scale: 1;}
+}
+
+@keyframes translate{
+    0% {transform: translateX(15px);}
+    50% {transform: translateX(-50px);}
+    100% {transform: translateX(15px);}
+}

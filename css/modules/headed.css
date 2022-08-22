@@ -1,1 +1,30 @@
+.header {
+  background-color: black;
+  display: fixed;
+  z-index: 100%;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  width: 100%;
+}
 
+.nav {
+  padding: 0.5em 0;
+}
+
+
+.nav__logo {
+  border-radius: 50%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.nav__action {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.85rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+}

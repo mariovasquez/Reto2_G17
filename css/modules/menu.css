@@ -1,9 +1,39 @@
 .menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.menu__link {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    transition: color 1s;
+    transition: transform 0.25s;
+}
+
+.menu__link:hover {
+    color: #fff;
+    transform: scale(1.125);
+}
+
+.menu__link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.25rem;
+    width: 0;
+    height: 0.0625rem;
+    background-color: var(--primary-button-color);
+    transition: width 0.25s ease-in-out;
+}
+
+.menu__link:hover::before {
+    width: 100%;
 }

@@ -4,3 +4,10 @@
     padding-left: var(--padding-container);
     padding-right: var(--padding-container);
 }
+
+.container--nav-r {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+}

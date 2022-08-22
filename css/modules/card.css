@@ -1,5 +1,4 @@
 .card{
-    box-shadow: 0 0 0.125rem 0.125rem var(--reverse-primary-shadow-color) inset;
     overflow: hidden;
 }
 
@@ -11,9 +10,10 @@
     align-items: center;
     justify-content: center;
     background-image: url('../../img/background-submenu.webp');
-    color: var(--secondary-text-color);
+    
     cursor: pointer;
     font-size: 1.25rem;
+    box-shadow: 0 0 0.125rem 0.125rem var(--reverse-primary-shadow-color) inset;
     transition: all 0.25s;
 }
 
@@ -23,14 +23,28 @@
 }
 
 .card__title{
+    color: var(--secondary-text-color);
     padding: 0.125rem;
     background-color: var(--tertiary-theme-color);
     text-shadow: 0rem 0.25rem var(--primary-text-color);
 }
 
 .card--main{
+    display: flex;
+    align-items:flex-end;
+    padding: 0;
+    background-image: url('https://cdn.shopify.com/s/files/1/0096/1884/9839/products/HotChip_e53278a8-bc15-4c9d-98dc-fbe502a0d8d4_480x.jpg?v=1650360152');
     max-width: 200px;
     height: 360px;
+}
+
+.card--album{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    width: 200px;
 }
 
 @media (min-width:768px){

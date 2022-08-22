@@ -34,7 +34,7 @@
     align-items:flex-end;
     padding: 0;
     width: 100%;
-    height: 360px;
+    height: 180px;
 }
 
 .card--main-new{
@@ -75,6 +75,7 @@
 }
 
 .card__album{
+    text-align: center;
     font-weight: 500;
     font-size: 1.125rem;
     color: var(--primary-text-color);
@@ -91,6 +92,7 @@
 
     .card--main{
         max-width: 200px;
+        height: 360px;
     }
 
     .card--album{

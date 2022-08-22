@@ -6,14 +6,14 @@
 
 @keyframes scaleElement-s{
     0% {scale: 1;}
-    50% {scale: 1.02;}
+    50% {scale: 1.03;}
     100% {scale: 1;}
 }
 
 @keyframes scaleElement-s-uneven{
-    0% {scale: 1.02;}
+    0% {scale: 1.03;}
     50% {scale: 1;}
-    100% {scale: 1.02;}
+    100% {scale: 1.03;}
 }
 
 @keyframes translate{

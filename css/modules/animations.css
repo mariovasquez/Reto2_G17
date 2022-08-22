@@ -1,11 +1,30 @@
-@keyframes scaleButton{
+@keyframes scaleElement{
     0% {scale: 1;}
     50% {scale: 1.25;}
     100% {scale: 1;}
+}
+
+@keyframes scaleElement-s{
+    0% {scale: 1;}
+    50% {scale: 1.02;}
+    100% {scale: 1;}
+}
+
+@keyframes scaleElement-s-uneven{
+    0% {scale: 1.02;}
+    50% {scale: 1;}
+    100% {scale: 1.02;}
 }
 
 @keyframes translate{
     0% {transform: translateX(15px);}
     50% {transform: translateX(-50px);}
     100% {transform: translateX(15px);}
+}
+
+@keyframes rotate{
+    0% {transform: rotate(0);}
+    33% {transform: rotate(5deg);}
+    66% {transform: rotate(-5deg);}
+    100% {transform: rotate(0);}
 }

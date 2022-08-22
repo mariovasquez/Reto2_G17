@@ -14,9 +14,3 @@
 .hero__paragraph{
     font-size: 1.5rem;
 }
-
-.hero-img__icon{
-    width: 5rem;
-    height: 5rem;
-    animation: translate 3s infinite;
-}

@@ -10,7 +10,6 @@
     align-items: center;
     justify-content: center;
     background-image: url('../../img/background-submenu.webp');
-    
     cursor: pointer;
     font-size: 1.25rem;
     box-shadow: 0 0 0.125rem 0.125rem var(--reverse-primary-shadow-color) inset;
@@ -43,12 +42,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 360px;
+    height: 260px;
     width: 200px;
+    animation: scaleElement-s 0.75s infinite;
+}
+
+.card--album-uneven{
+    animation: scaleElement-s-uneven 0.75s infinite;
+}
+
+.card--album:hover{
+    cursor: pointer;
+    background-color: var(--secondary-shadow-color);
+    animation: none;
+    animation: rotate 0.25s;
+}
+
+.card__img{
+    width: 175px;
+    height: 175px;
 }
 
 @media (min-width:768px){
     .card--hero{
         height: 6rem;
+    }
+
+    .card--album{
+        height: 360px;
     }
 }

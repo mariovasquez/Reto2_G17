@@ -17,14 +17,14 @@
 }
 
 @keyframes translate{
-    0% {transform: translateX(15px);}
-    50% {transform: translateX(-50px);}
-    100% {transform: translateX(15px);}
+    0% {transform: translateY(3px);}
+    50% {transform: translateY(-6px);}
+    100% {transform: translateY(3px);}
 }
 
 @keyframes rotate{
     0% {transform: rotate(0);}
-    33% {transform: rotate(5deg);}
-    66% {transform: rotate(-5deg);}
+    33% {transform: rotate(3deg);}
+    66% {transform: rotate(-3deg);}
     100% {transform: rotate(0);}
 }

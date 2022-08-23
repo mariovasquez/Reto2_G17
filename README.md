@@ -1,4 +1,3 @@
-<h1 align='center'>Reto2_G17 Tienda Discos</h1><br>
 # [Tienda Discos - Página Web](https://mariovasquez.github.io/Reto2_G17/)
 ## Reto 2 del bootcamp Web Full Stack TECSUP 
 ## Integrantes
